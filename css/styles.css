@@ -44,7 +44,8 @@ a {
   color: #2e2f42;
 }
 
-.header-nav:hover {
+.header-nav:hover,
+.header-nav:focus {
   color: #404bbf;
 }
 
@@ -124,7 +125,7 @@ h3 {
   color: #fff;
 }
 
-button {
+.order-button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -149,9 +150,18 @@ button:hover {
   text-align: left;
 }
 
+.our-team {
+  background-color: #f4f4fd;
+}
+
 .team-title {
   color: #2e2f42;
   text-align: center;
+  text-transform: capitalize;
+}
+
+.team-member {
+  background-color: #ffffff;
 }
 
 .team-member-name {
@@ -167,6 +177,7 @@ button:hover {
 .portfolio-title {
   color: #2e2f42;
   text-align: center;
+  text-transform: capitalize;
 }
 
 .product-pic {
