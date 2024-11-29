@@ -137,7 +137,7 @@ h3 {
   cursor: pointer;
 }
 
-button:hover {
+.order-button:hover {
   background: #404bbf;
 }
 
