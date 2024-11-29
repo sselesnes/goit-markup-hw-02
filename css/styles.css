@@ -3,7 +3,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  font-family: 'Roboto', serif;
+  font-family: 'Roboto', sans-serif;
   color: #434455;
 }
 
@@ -52,6 +52,10 @@ a {
   text-decoration: underline;
 }
 
+.header-adress {
+  font-style: normal;
+}
+
 .header-contacts {
   font-weight: 400;
   font-size: 16px;
@@ -62,7 +66,8 @@ a {
   font-style: normal;
 }
 
-.header-contacts:hover {
+.header-contacts:hover,
+.header-contacts:focus {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
