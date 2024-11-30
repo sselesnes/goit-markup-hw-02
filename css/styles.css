@@ -1,10 +1,26 @@
+:root {
+  /* Style guide colors */
+  --iris: #4d5ae5; /* Primary Brand - CTAs, Focused, Active states links*/
+  --ocean: #404bbf; /* Pressed state - CTAs */
+  --navy-blue: #2e2f42; /* Dark - Overlays, Shadows, Headings */
+  --green: #31d0aa; /* Success - Valid fields, Success messages */
+  --slate: #434455; /* Body text */
+  --slate-lite: #8e8f99; /* Subtle text - Helper text, Deemphasized text*/
+  --cornflower: #e7e9fc; /* Accent - Accent color, Hairlines Subtle Backgrounds */
+  --cloud: #f4f4fd; /* Light - Light mode backgrounds, Light mode Dialogs/alerts */
+  --navy-blue-modal: #2e2f4266; /* Modal overlay rgba(46, 47, 66, 0.4)*/
+  --grey: #2e2f42b3; /* Hero background rgba(46, 47, 66, 0.7)*/
+  --white: #fff; /* Header, team card background */
+  --dairy: #fcfcfc; /* Modal background */
+}
+
 body {
-  background-color: #fff;
+  background-color: var(--white);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-family: 'Roboto', sans-serif;
-  color: #434455;
+  color: var(--slate);
 }
 
 ul,
@@ -23,16 +39,16 @@ a {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--iris);
   text-decoration: none;
 }
 
 .mainlogo-header-studio-part {
-  color: #2e2f42;
+  color: var(--navy-blue);
 }
 
 .mainlogo-footer-studio-part {
-  color: #f4f4fd;
+  color: var(--cloud);
 }
 
 .header-nav {
@@ -41,12 +57,12 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
 
-  color: #2e2f42;
+  color: var(--navy-blue);
 }
 
 .header-nav:hover,
 .header-nav:focus {
-  color: #404bbf;
+  color: var(--ocean);
 }
 
 .header-nav:active {
@@ -62,7 +78,7 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--slate);
   text-decoration: none;
   font-style: normal;
 }
@@ -73,7 +89,7 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #404bbf;
+  color: var(--ocean);
   text-decoration: none;
   font-style: normal;
 }
@@ -114,7 +130,7 @@ h3 {
 }
 
 .benefits {
-  background: #2e2f42;
+  background: var(--navy-blue);
 }
 .benefits-headline {
   font-weight: 700;
@@ -122,7 +138,7 @@ h3 {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #fff;
+  color: var(--white);
 }
 
 .order-button {
@@ -130,20 +146,20 @@ h3 {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #fff;
-  background: #4d5ae5;
+  color: var(--white);
+  background: var(--iris);
   border: none;
   cursor: pointer;
 }
 
 .order-button:hover,
 .order-button:focus {
-  background: #404bbf;
+  background: var(--ocean);
 }
 
 .benefit-item-title {
   text-align: left;
-  color: #2e2f42;
+  color: var(--navy-blue);
 }
 
 .benefit-item-text {
@@ -151,31 +167,31 @@ h3 {
 }
 
 .our-team {
-  background-color: #f4f4fd;
+  background-color: var(--cloud);
 }
 
 .team-title {
-  color: #2e2f42;
+  color: var(--navy-blue);
   text-align: center;
   text-transform: capitalize;
 }
 
 .team-member {
-  background-color: #ffffff;
+  background-color: var(--white) fff;
 }
 
 .team-member-name {
-  color: #2e2f42;
+  color: var(--navy-blue);
   text-align: center;
 }
 
 .team-member-job-title {
-  color: #434455;
+  color: var(--slate);
   text-align: center;
 }
 
 .portfolio-title {
-  color: #2e2f42;
+  color: var(--navy-blue);
   text-align: center;
   text-transform: capitalize;
 }
@@ -185,20 +201,20 @@ h3 {
 
 .product-name {
   text-align: left;
-  color: #2e2f42;
+  color: var(--navy-blue);
 }
 
 .product-desc {
   text-align: left;
-  color: #434455;
+  color: var(--slate);
 }
 
 .footer {
-  background: #2e2f42;
+  background: var(--navy-blue);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+  color: var(--cloud);
   text-align: left;
 }
