@@ -1,18 +1,21 @@
-:root {
-  /* Style guide colors */
-  --iris: #4d5ae5; /* Primary Brand - CTAs, Focused, Active states links*/
-  --ocean: #404bbf; /* Pressed state - CTAs */
-  --navy-blue: #2e2f42; /* Dark - Overlays, Shadows, Headings */
-  --green: #31d0aa; /* Success - Valid fields, Success messages */
-  --slate: #434455; /* Body text */
-  --slate-lite: #8e8f99; /* Subtle text - Helper text, Deemphasized text*/
-  --cornflower: #e7e9fc; /* Accent - Accent color, Hairlines Subtle Backgrounds */
-  --cloud: #f4f4fd; /* Light - Light mode backgrounds, Light mode Dialogs/alerts */
-  --navy-blue-modal: #2e2f4266; /* Modal overlay rgba(46, 47, 66, 0.4)*/
-  --grey: #2e2f42b3; /* Hero background rgba(46, 47, 66, 0.7)*/
-  --white: #fff; /* Header, team card background */
-  --dairy: #fcfcfc; /* Modal background */
-  
+/* :root {
+<!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae voluptatum sapiente natus incidunt vel et praesentium vero neque temporibus saepe ex aliquam esse necessitatibus possimus, debitis dolorem impedit exercitationem, facere quam beatae. Magni sunt cum rem voluptates odit praesentium, fugit voluptatum asperiores quasi quo illo obcaecati, illum est earum quis perspiciatis id doloremque! Eos, iusto modi dolorum possimus obcaecati dolores amet eligendi incidunt deserunt, ipsum neque. Neque, voluptas, a ipsa adipisci repellendus numquam odit, velit repellat esse debitis sed tenetur dignissimos necessitatibus quaerat dolore praesentium tempore laboriosam? Quae, assumenda molestias. Nostrum, excepturi! Est unde doloremque, impedit voluptatem vel voluptas doloribus aliquid consequuntur perferendis cumque voluptate explicabo atque dignissimos in illo. Assumenda, laborum iure. Consequuntur vel consequatur eligendi harum molestias dolorum dolorem laudantium iste sed ipsum accusamus asperiores id adipisci, vitae veniam labore libero quos! Explicabo pariatur odio, hic molestiae nemo mollitia, sit illum tempore a rerum est iure consectetur asperiores fugit soluta aliquam aperiam minus nobis laborum, quam vitae praesentium voluptate dolor aliquid? Iste expedita dolorem perspiciatis, nihil animi iure quos neque quod ad? Repellat labore voluptates reprehenderit obcaecati, ex atque eveniet maiores tenetur, molestiae ab, incidunt adipisci! Fugit modi enim dicta suscipit vitae inventore nobis facere, hic nam laboriosam? -->
+  */
+
+/* Style guide colors */
+--iris: #4d5ae5; /* Primary Brand - CTAs, Focused, Active states links*/
+--ocean: #404bbf; /* Pressed state - CTAs */
+--navy-blue: #2e2f42; /* Dark - Overlays, Shadows, Headings */
+--green: #31d0aa; /* Success - Valid fields, Success messages */
+--slate: #434455; /* Body text */
+--slate-lite: #8e8f99; /* Subtle text - Helper text, Deemphasized text*/
+--cornflower: #e7e9fc; /* Accent - Accent color, Hairlines Subtle Backgrounds */
+--cloud: #f4f4fd; /* Light - Light mode backgrounds, Light mode Dialogs/alerts */
+--navy-blue-modal: #2e2f4266; /* Modal overlay rgba(46, 47, 66, 0.4)*/
+--grey: #2e2f42b3; /* Hero background rgba(46, 47, 66, 0.7)*/
+--white: #fff; /* Header, team card background */
+--dairy: #fcfcfc; /* Modal background */
+
 body {
   background-color: var(--white);
   font-size: 16px;
