@@ -134,6 +134,12 @@ h3 {
   background: #4d5ae5;
   border: none;
   cursor: pointer;
+  margin: 48px 164px;
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  /* min-width: 169px; */
+  height: 56px;
 }
 
 .order-button:hover,
